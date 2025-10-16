@@ -1,0 +1,30 @@
+body {
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    background-color: #ffff90;
+}
+
+.btn{
+    color: #1d526b;
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 0.1px 7px;
+    border-radius: 20px;
+    display:inline-block;
+}
+
+nav a:hover{
+    background-color: rgb(170, 246, 245);
+}
+
+h1{
+    color: #493A59;
+}
+
+h3{
+    color: #6A3D99;
+}
+
+p{
+    color: #33332A;
+}
