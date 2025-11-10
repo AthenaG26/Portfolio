@@ -3,7 +3,7 @@
 body {
     font-family: "Merriweather", serif;
     font-style: normal;
-
+    background-color: #c8eef7;
 }
 
 
@@ -32,7 +32,8 @@ header {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    background-color: rgb(66, 107, 58);
+    background: #FFD14C;
+background: linear-gradient(180deg, rgba(255, 209, 76, 1) 0%, rgba(255, 209, 76, 1) 48%, rgba(200, 238, 247, 1) 95%);
 }
 
 nav ul {
@@ -53,6 +54,7 @@ nav ul {
     border: solid 1px black;
     background-color: #f2cd52;
     transition: top .3s ease-in;
+    font-size: 1.5em;
 }
 /*rgba(161, 206, 203, 1)*/
 #top-nav a {
@@ -87,7 +89,7 @@ nav ul {
 
 
 .programs-nav{
-    background-color: #ffffff;
+    background-color: #c8eef7;
     
 }
 
@@ -273,7 +275,8 @@ article img{
     display: flex;
     position: static;
     border: none;
-    background-color: rgb(66, 107, 58);
+    background: #FFD14C;
+background: linear-gradient(180deg, rgba(255, 209, 76, 1) 0%, rgba(255, 209, 76, 1) 48%, rgba(200, 238, 247, 1) 95%);
     align-items: center;
     z-index: 0;
 }
