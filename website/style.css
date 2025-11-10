@@ -310,8 +310,9 @@ background: linear-gradient(180deg, rgba(255, 209, 76, 1) 0%, rgba(255, 209, 76,
 
 .programs-menu{
     display:flex;
-    justify-content: space-between;
-    position:relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
 }
 
 /*MAIN GRID*/
@@ -345,3 +346,35 @@ background: linear-gradient(180deg, rgba(255, 209, 76, 1) 0%, rgba(255, 209, 76,
     border-radius:10px;
     display:inline-block;
 }
+
+/*test for cards*/
+
+.episodes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+  .episode-card{
+    width:270px;
+    margin-right:30px;
+    margin-bottom:30px;
+    border:solid 1px #ddd;
+    flex:1 1 auto;
+}
+
+.episode-card:last-child{
+    margin: right 0%;
+}
+
+  .episode-card img{
+    width: 100%;
+}
+
+  .episode-card p, .episode-card h4{
+    margin:1em
+}
+    .episode-card:hover{
+        box-shadow: 5px 5px 8px rgb(153, 153, 153);
+    }
