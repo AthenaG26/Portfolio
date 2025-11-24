@@ -191,7 +191,9 @@ article{
     margin-bottom: 2em;
     margin-top: 2em;
     background: url(images/banner.png) no-repeat center/cover;
-background: linear-gradient(90deg,rgba(235, 230, 99, 1) 4%, rgba(87, 199, 133, 0) 39%), url(images/banner.png) no-repeat center/cover;;
+    width: auto;
+    height: auto;
+
 }
 
 .hero h1{
@@ -201,7 +203,6 @@ background: linear-gradient(90deg,rgba(235, 230, 99, 1) 4%, rgba(87, 199, 133, 0
 .hero p {
     background-color: #00000000;
     font-size: 2em;
-    width: 35%;
     color: rgb(255, 255, 255);
 }
 
