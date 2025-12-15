@@ -7,7 +7,7 @@ body {
 }
 
 
-.block{
+.a code{
     color: #91872f;
     font-weight: bolder;
     background-color: #ffffff;
@@ -18,15 +18,20 @@ body {
 }
 
 h1 {
-    font-size: 1.5em;
-    text-transform: uppercase;
-    font-family: "Fredericka the Great", serif;
+    font-size: 4em;
+    font-family: "Marker Felt", fantasy;
     font-weight: 800em;
     letter-spacing: 0.05em;
 
 }
 
+h3{
+    font-size: 5em;
+}
 
+p{
+    font-size: 1.5em;
+}
 
 
 
@@ -187,10 +192,7 @@ article{
     
 }
 
-.hero:hover{
-    box-shadow: 5px 5px 8px rgb(153, 153, 153);
 
-}
 
 .hero h1{
     font-size: 3em;
@@ -370,8 +372,8 @@ background: linear-gradient(180deg, rgba(255, 209, 76, 1) 0%, rgba(255, 209, 76,
     }
 
 
-    a:link {
-        color: blue;
+    .a bluelink{
+        color: rgb(40, 89, 186);
         background-color: transparent;
         text-decoration: none;
       }
@@ -381,12 +383,12 @@ background: linear-gradient(180deg, rgba(255, 209, 76, 1) 0%, rgba(255, 209, 76,
         text-decoration: none;
       }
       a:hover {
-        color: blue;
+        color: white;
         background-color: transparent;
         text-decoration: underline;
       }
       a:active {
-        color: yellow;
+        color: white;
         background-color: transparent;
         text-decoration: underline;
       }
@@ -407,6 +409,24 @@ background: linear-gradient(180deg, rgba(255, 209, 76, 1) 0%, rgba(255, 209, 76,
     height: auto;
         margin-bottom: 20px
         
+    }
+
+    .name {
+    /* Set the text fill color to transparent */
+    color: rgb(255, 253, 253); 
+    /* Apply the stroke: width and color */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    }
+
+    .titles {
+    /* Set the text fill color to transparent */
+    color: #FFD14C; 
+    /* Apply the stroke: width and color */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    font-size: 2em;
+    
     }
 
     
