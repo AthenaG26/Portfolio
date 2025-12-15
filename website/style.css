@@ -185,15 +185,11 @@ article{
 
 
 .hero{
-    border-radius: 10px;
-    padding:6em 2em;
-    color:white;
-    margin-bottom: 2em;
-    margin-top: 2em;
-    background: url(images/banner.png) no-repeat center/cover;
-    width: auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     height: auto;
-
+    overflow: hidden;
 }
 
 .hero h1{
@@ -358,7 +354,8 @@ background: linear-gradient(180deg, rgba(255, 209, 76, 1) 0%, rgba(255, 209, 76,
 }
 
   .episode-card{
-    width:270px;
+    width:200px;
+    height: auto;
     margin-right:30px;
     margin-bottom:30px;
     border:solid 1px #ddd;
