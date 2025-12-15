@@ -8,22 +8,15 @@ body {
 
 
 h1 {
-    font-size: 1.6rem;
+    font-size: 1.5em;
     text-transform: uppercase;
     font-family: "Fredericka the Great", serif;
-    font-weight: 400;
-
-    letter-spacing: 0.05rem;
-    font-style: normal;
+    font-weight: 800em;
+    letter-spacing: 0.05em;
 
 }
 
-h1 a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    padding: 0px 5px;
-}
+
 
 
 
@@ -136,15 +129,6 @@ li.dropdown:hover ul{
 
 /*typography design*/
 
-h1{
-    font-size:1rem;
-    text-transform: uppercase;
-}
-
-h1 a{
-    text-decoration: none;
-    color:#000;
-}
 
 section h2{
     font-size:1rem;text-transform: uppercase;
@@ -396,3 +380,12 @@ background: linear-gradient(180deg, rgba(255, 209, 76, 1) 0%, rgba(255, 209, 76,
         background-color: transparent;
         text-decoration: underline;
       }
+
+      .Icon{
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        height: auto;
+        overflow: hidden;
+        
+    }
