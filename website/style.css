@@ -7,6 +7,16 @@ body {
 }
 
 
+.block{
+    color: #91872f;
+    font-weight: bolder;
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 1.5em 2em;
+    border-radius: 30px;
+    display:inline-block;
+}
+
 h1 {
     font-size: 1.5em;
     text-transform: uppercase;
@@ -389,3 +399,14 @@ background: linear-gradient(180deg, rgba(255, 209, 76, 1) 0%, rgba(255, 209, 76,
         overflow: hidden;
         
     }
+
+    .space{
+        display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: auto;
+        margin-bottom: 20px
+        
+    }
+
+    
