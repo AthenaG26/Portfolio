@@ -190,6 +190,12 @@ article{
     align-items: center; 
     height: auto;
     overflow: hidden;
+    
+}
+
+.hero:hover{
+    box-shadow: 5px 5px 8px rgb(153, 153, 153);
+
 }
 
 .hero h1{
@@ -315,9 +321,7 @@ background: linear-gradient(180deg, rgba(255, 209, 76, 1) 0%, rgba(255, 209, 76,
 /*MAIN GRID*/
 
 .home main{
-    display:grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap:2em;
+    
 }
 }
 
@@ -327,13 +331,7 @@ background: linear-gradient(180deg, rgba(255, 209, 76, 1) 0%, rgba(255, 209, 76,
 
 /*main grid*/
 
-.home main{
-    display:grid;
-    grid-template-columns: minmax(500px, 1fr) 300px;
-    grid-gap:2em;
-    
 
-}
 
 .btn{
     color:#000000;
@@ -376,3 +374,25 @@ background: linear-gradient(180deg, rgba(255, 209, 76, 1) 0%, rgba(255, 209, 76,
     .episode-card:hover{
         box-shadow: 5px 5px 8px rgb(153, 153, 153);
     }
+
+
+    a:link {
+        color: blue;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:visited {
+        color: gray;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: blue;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
